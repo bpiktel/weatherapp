@@ -1,0 +1,82 @@
+.app {
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to bottom, lightblue, pink);
+}
+
+.header {
+  margin: 20px 20px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.settingsIcon {
+  width: 36px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 500;
+  position: relative;
+  top: 5vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.weatherList {
+  margin: 10px auto;
+  width: 100%;
+  position: relative;
+  bottom: -20vh;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  justify-content: center;
+}
+
+.errorPanel {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  background: grey;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -60px;
+  margin-bottom: -60px;
+
+  border: 8px solid white;
+  border-top: 8px solid grey;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+table td {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table tr {
+  margin: auto;
+}

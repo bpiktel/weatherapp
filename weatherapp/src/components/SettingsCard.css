@@ -1,0 +1,60 @@
+.settingsCard {
+  margin: 20vh auto;
+  background: linear-gradient(to bottom, rgba(0, 200, 200), lightblue);
+  width: 60vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+
+.profileColumn {
+  margin: auto auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileList {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.profileActionButton {
+  background-color: rgba(200, 200, 200);
+  border-color: rgba(0, 0, 0, 0.0);
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.settingsText {
+  margin: auto auto;
+  padding-right: 10px;
+  font-size: 1.2rem;
+}
+
+.cityInput {
+  font-size: 1.2rem;
+}
+
+.editableInput {
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.notification {
+  margin: 0 auto;
+  justify-content: center;
+  position: absolute;
+  bottom: 15vh;
+  background: rgba(140, 140, 140, 0.8);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
